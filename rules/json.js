@@ -32,6 +32,8 @@ module.exports = {
               "description",
               "keywords",
               "license",
+              "homepage",
+              "bugs",
               "repository",
               "funding",
               "author",
