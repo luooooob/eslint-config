@@ -68,7 +68,7 @@ module.exports = {
         "@typescript-eslint/keyword-spacing": ["error", { "before": true, "after": true }],
 
         "object-curly-spacing": "off",
-        "@typescript-eslint/object-curly-spacing": ["error", "never"],
+        "@typescript-eslint/object-curly-spacing": ["error", "always"],
 
         "quotes": "off",
         "@typescript-eslint/quotes": ["error", "double", { "allowTemplateLiterals": true }],
