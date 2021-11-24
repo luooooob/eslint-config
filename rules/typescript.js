@@ -7,7 +7,11 @@ module.exports = {
       rules: {
 
         // TypeScript 规则
-        "@typescript-eslint/array-type": ["error", "array"], //
+
+        "@typescript-eslint/array-type": ["error", {
+          default: "array",
+          readonly: "array"
+        }],
         "@typescript-eslint/consistent-indexed-object-style": ["error", "record"],
         "@typescript-eslint/consistent-type-definitions": ["error", "type"],
         "@typescript-eslint/consistent-type-exports": ["error"],
