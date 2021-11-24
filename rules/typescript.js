@@ -56,7 +56,7 @@ module.exports = {
         "@typescript-eslint/comma-dangle": ["error", "never"],
 
         "comma-spacing": "off",
-        "@typescript-eslint/comma-spacing": ["error", {"before": false, "after": true}],
+        "@typescript-eslint/comma-spacing": ["error", { "before": false, "after": true }],
 
         "func-call-spacing": "off",
         "@typescript-eslint/func-call-spacing": ["error", "never"],
@@ -65,13 +65,13 @@ module.exports = {
         "@typescript-eslint/indent": ["error", 2],
 
         "keyword-spacing": "off",
-        "@typescript-eslint/keyword-spacing": ["error", {"before": true, "after": true}],
+        "@typescript-eslint/keyword-spacing": ["error", { "before": true, "after": true }],
 
         "object-curly-spacing": "off",
         "@typescript-eslint/object-curly-spacing": ["error", "never"],
 
         "quotes": "off",
-        "@typescript-eslint/quotes": ["error", "double", {"allowTemplateLiterals": true}],
+        "@typescript-eslint/quotes": ["error", "double", { "allowTemplateLiterals": true }],
 
         "semi": "off",
         "@typescript-eslint/semi": ["error", "never"],
