@@ -36,7 +36,7 @@ module.exports = {
     "prefer-rest-params": ["error"],
     "prefer-spread": ["error"],
     "prefer-template": ["error"],
-    "spaced-comment": ["error", "always"],
+    "spaced-comment": ["error", "always", { "markers": ["/"] }],
 
     // Format
 
@@ -49,7 +49,7 @@ module.exports = {
     "comma-spacing": ["error", { "before": false, "after": true }],
     "comma-style": ["error", "last"],
     "dot-location": ["error", "property"],
-    "eol-last": ["error", "never"],
+    "eol-last": ["error", "always"],
     "func-call-spacing": ["error", "never"],
     "implicit-arrow-linebreak": ["error", "beside"],
     "indent": ["error", 2],
