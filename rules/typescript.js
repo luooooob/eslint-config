@@ -3,7 +3,12 @@ module.exports = {
     {
       files: ["*.{ts,tsx}"],
       parser: "@typescript-eslint/parser",
+      parserOptions: {
+        sourceType: "module",
+        project: ["./tsconfig.json"]
+      },
       plugins: ["@typescript-eslint"],
+
       rules: {
 
         // TypeScript 规则
