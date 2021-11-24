@@ -1,7 +1,7 @@
 module.exports = {
   overrides: [
     {
-      files: ["*.{js,jsx,ts,tsx,vue}"],
+      files: ["*.{js,jsx,ts,tsx}"],
       env: {
         browser: true,
         commonjs: true,
