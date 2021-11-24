@@ -51,21 +51,12 @@ module.exports = {
     "dot-location": ["error", "property"],
     "eol-last": ["error", "never"],
     "func-call-spacing": ["error", "never"],
-    "function-call-argument-newline": ["error", "never"],
-    "function-paren-newline": ["error", "never"],
     "implicit-arrow-linebreak": ["error", "beside"],
     "indent": ["error", 2],
     "jsx-quotes": ["error", "prefer-double"],
     "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],
     "keyword-spacing": ["error", { "before": true, "after": true }],
     "linebreak-style": ["error", "unix"],
-    // "lines-around-comment": ["error", {
-    //   "beforeBlockComment": true,
-    //   "afterBlockComment": true,
-    //   "beforeLineComment": false,
-    //   "afterLineComment": false
-    // }],
-
     "no-extra-parens": ["error", "all"],
     "no-multi-spaces": ["error"],
     "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0, "maxBOF": 0 }],
