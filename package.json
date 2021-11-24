@@ -6,7 +6,8 @@
   "license": "MIT",
   "author": "Jiang Yan <contact@jiang-yan.com> (http://github.com/luooooob)",
   "files": [
-    "index.js"
+    "index.js",
+    "rules"
   ],
   "main": "index.js",
   "publishConfig": {
