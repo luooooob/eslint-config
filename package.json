@@ -2,7 +2,10 @@
   "name": "@luooooob/eslint-config",
   "version": "0.1.0",
   "description": "",
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
   "license": "MIT",
   "author": "Jiang Yan <contact@jiang-yan.com> (http://github.com/luooooob)",
   "files": [
