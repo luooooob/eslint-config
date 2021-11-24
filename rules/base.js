@@ -40,7 +40,7 @@ module.exports = {
         "prefer-rest-params": ["error"],
         "prefer-spread": ["error"],
         "prefer-template": ["error"],
-
+        "spaced-comment": ["error", "always"],
 
         // Format
 
@@ -63,15 +63,16 @@ module.exports = {
         "key-spacing": ["error", {"beforeColon": false, "afterColon": true}],
         "keyword-spacing": ["error", {"before": true, "after": true}],
         "linebreak-style": ["error", "unix"],
-        "lines-around-comment": ["error", {
-          "beforeBlockComment": true,
-          "afterBlockComment": true,
-          "beforeLineComment": true,
-          "afterLineComment": true
-        }],
+        // "lines-around-comment": ["error", {
+        //   "beforeBlockComment": true,
+        //   "afterBlockComment": true,
+        //   "beforeLineComment": false,
+        //   "afterLineComment": false
+        // }],
+
         "no-extra-parens": ["error", "all"],
-        "no-extra-parens": ["error"],
-        "no-multiple-empty-lines": ["error", {"max": 2, "maxEOF": 1, "maxBOF": 0}],
+        "no-multi-spaces": ["error"],
+        "no-multiple-empty-lines": ["error", {"max": 1, "maxEOF": 1, "maxBOF": 0}],
         "no-tabs": ["error"],
         "no-trailing-spaces": ["error"],
         "no-whitespace-before-property": ["error"],

@@ -12,7 +12,6 @@ module.exports = {
       rules: {
 
         // TypeScript 规则
-
         "@typescript-eslint/array-type": ["error", {
           default: "array",
           readonly: "array"
@@ -25,7 +24,7 @@ module.exports = {
         "@typescript-eslint/prefer-as-const": ["error"], //
         "@typescript-eslint/prefer-nullish-coalescing": ["error"],
         "@typescript-eslint/prefer-optional-chain": ["error"],
-        "@typescript-eslint/prefer-readonly-parameter-types": ["error"],
+        // "@typescript-eslint/prefer-readonly-parameter-types": ["error"],
         "@typescript-eslint/type-annotation-spacing": ["error"],
 
         // TypeScript 扩展 ESLint 规则 - 语法部分
