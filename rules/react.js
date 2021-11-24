@@ -2,6 +2,11 @@ module.exports = {
   overrides: [
     {
       files: ["*.{jsx,tsx}"],
+      parserOptions: {
+        ecmaFeatures: {
+          "jsx": true
+        }
+      },
       plugins: [
         "react",
         "jsx-a11y",
