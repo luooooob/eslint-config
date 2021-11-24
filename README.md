@@ -5,7 +5,7 @@ My shareable ESLint configuration. Inspired by https://github.com/antfu/eslint-c
 ## Feature
 
 1. Out of the box.
-2. Support `javascript`, `typescript`, `javascriptreact`, `typescriptreact` and `vue` proejcts.
+2. Support `javascript`, `typescript`, `javascriptreact`, `typescriptreact`, `vue` and `json`, `package.json`, `tsconfig.json` files.
 
 ## Usage
 
@@ -35,14 +35,37 @@ npm i -D @luooooob/eslint-config
 
 ### Config editor
 
-The ESLint rules may conflict with the default formatter of your editor，you can specify to use ESLint instead of the default formatting operation. 
+I recommend using eslint as the default formatter of your editor. For example, if you are using VS Code, create a `.vscode/settings.json`:
 
-For example, if you are using VS Code, create a `.vscode/settings.json`:
 ```json
 {
-  "editor.formatOnSave": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "json"
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
 }
 ```
