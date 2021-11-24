@@ -1,12 +1,20 @@
 {
   "name": "@luooooob/eslint-config",
   "version": "0.3.0",
-  "description": "",
+  "description": "My shareable ESLint configuration.",
   "keywords": [
     "eslint",
     "eslint-config"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/luooooob/eslint-config",
+  "bugs": {
+    "url": "https://github.com/luooooob/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luooooob/eslint-config.git"
+  },
   "author": "Jiang Yan <contact@jiang-yan.com> (http://github.com/luooooob)",
   "files": [
     "index.js",
