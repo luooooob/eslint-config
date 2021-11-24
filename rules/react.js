@@ -2,16 +2,16 @@ module.exports = {
   overrides: [
     {
       files: ["*.{jsx,tsx}"],
-      parserOptions: {
-        ecmaFeatures: {
-          "jsx": true
-        }
-      },
       plugins: [
         "react",
         "jsx-a11y",
         "react-hooks"
       ],
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true
+        }
+      },
       settings: {
         react: {
           version: "detect"
@@ -23,7 +23,7 @@ module.exports = {
           namedComponents: "arrow-function",
           unnamedComponents: "arrow-function"
         }],
-        "react/self-closure-comp": ["error", {
+        "react/self-closing-comp": ["error", {
           component: true,
           html: true
         }],
